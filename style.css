@@ -1,0 +1,93 @@
+*{
+    scroll-behavior: smooth;
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: rgb(243, 234, 227);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    height: 450px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+#img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    background-image: url("img/image-product-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#txt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+#tit1{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#tit1 h2{
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin: 0 0 0 25px;
+    color: rgb(149, 152, 163);
+}
+#tit2{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+}
+#tit2 h1{
+    font-size: 36px;
+    margin: 0 0 0 25px;
+    color: rgb(28, 35, 42);
+}
+#tit3{
+    height: 100px;
+    width: 100%;
+}
+#tit3 p{
+    margin: 80px 25px  25px;
+    color: rgb(194, 195, 201);
+    font-size: 18px;
+}
+#price{
+    margin: 80px 25px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+#btn{
+    background-color: rgb(61, 129, 104);
+    margin: 25px 25px 25px 25px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#btn:hover{
+    background-color: rgb(26, 64, 49);
+    transition: 0.7s;
+}
+#btn:not(:hover){
+    transition: 0.5s;
+}
